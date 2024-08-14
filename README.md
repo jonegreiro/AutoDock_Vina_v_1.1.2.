@@ -4,9 +4,9 @@ Este *pipeline* foi criado para facilitar a realização de simulações de *doc
 
 ## Como funciona
 
-Com este *pipeline*, o usuário pode escolher uma proteína disponível no *Protein Data Bank* (PDB), tratá-la para eliminar resíduos não proteicos e protonar a proteína utilizando o servidor da web PDB2PQR. O *pipeline* gera os arquivos necessários para a simulação, incluindo o arquivo conf.txt, que contém as coordenadas do ligante co-cristalizado e servirá como base para as próximas simulações. Ele também gera os arquivos receptor.pdbqt e ligante.pdbqt.
+Com este *pipeline*, o usuário pode escolher uma proteína disponível no *Protein Data Bank* (PDB), tratá-la para eliminar resíduos não proteicos e protonar a proteína utilizando o programa da web PDB2PQR. O *pipeline* gera os arquivos necessários para a simulação, incluindo o arquivo conf.txt, que contém as coordenadas do ligante co-cristalizado e servirá como base para as próximas simulações. Ele também gera os arquivos receptor.pdbqt e ligante.pdbqt.
 
-Uma vez que todos os arquivos necessários estão prontos, o usuário pode realizar a simulação e calcular o RMSD da etapa de *redocking* molecular para confirmar se as condições de simulação estão adequadas.
+Uma vez que todos os arquivos necessários estão prontos, o usuário pode realizar a simulação e calcular o RMSD da etapa de re-*docking* molecular para confirmar se as condições de simulação estão adequadas.
 
 ## Uso
 
